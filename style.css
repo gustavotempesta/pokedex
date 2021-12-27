@@ -1,1 +1,14 @@
-/* Adicione seu código CSS AQUI */
+body{
+    /* width: 1080px; */
+    /* height: 820px; */
+    background: #C6ECED;
+}
+
+.caixa-cabecalho{
+    width: 1080px;
+    margin: 27px auto 21px;
+}
+
+.logo{
+    text-align: center;
+}
