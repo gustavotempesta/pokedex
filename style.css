@@ -1,12 +1,11 @@
 body{
-    /* width: 1080px; */
-    /* height: 820px; */
-    /* background: #C6ECED; */
+    background: #C6ECED;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
 }
 
 header{
-    background: #C6ECED;
-    padding: 27px 0 0;
+    padding: 27px 0 0 ;
 }
 
 .caixa-cabecalho{
@@ -24,7 +23,6 @@ header{
 }
 
 .form-busca{
-    background: #C6ECED;
     padding: 21.13px 0 0 98px;
 }
 
@@ -33,7 +31,7 @@ header{
     margin: 0 auto;
 }
 
-.input-padrao{
+.input-busca{
     display: inline-block;
     width: 70%;
     padding: 14px 22px 15px 22px;
@@ -42,6 +40,7 @@ header{
     border-radius: 10px;
     color: #AFAFAF;
     font-size: 14px;
+    line-height: 16px;
 }
 
 .buscar{
@@ -54,4 +53,62 @@ header{
     color: #FFCB05;
     font-size: 18px;
     font-weight: bold;
+}
+
+.pokemon{
+    padding: 40px 0 0 98px;
+}
+
+.card-pokemon{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.card-pokemon li{
+    padding: 22px 15px;
+    display: inline-block;
+    width: 181px;
+    height: 253px;
+    text-align: center;
+    margin: 0 4.5% 0 0.5%;
+    vertical-align: middle;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.card-grama{
+    background: #48D0B0;
+}
+
+.card-fogo{
+    background: #F66C6D;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+h3{
+    margin-top: 3px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.42);
+}
+
+.elipse{
+    margin-top: 16px;
+    width: 151px;
+    height: 151px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+}
+
+.img-pokemon{
+    padding: 15px;
+    width: 122px;
+    height: 122px;
 }
