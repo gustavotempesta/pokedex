@@ -1,14 +1,57 @@
 body{
     /* width: 1080px; */
     /* height: 820px; */
+    /* background: #C6ECED; */
+}
+
+header{
     background: #C6ECED;
+    padding: 27px 0 0;
 }
 
 .caixa-cabecalho{
     width: 1080px;
-    margin: 27px auto 21px;
+    margin: 0 auto;
 }
 
 .logo{
     text-align: center;
+}
+
+.img-logo{
+    width: 186.39px;
+    height: 66.87px;
+}
+
+.form-busca{
+    background: #C6ECED;
+    padding: 21.13px 0 0 98px;
+}
+
+.conteudo-form-busca{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.input-padrao{
+    display: inline-block;
+    width: 70%;
+    padding: 14px 22px 15px 22px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    color: #AFAFAF;
+    font-size: 14px;
+}
+
+.buscar{
+    background: #3763AD;
+    width: 10%;
+    padding: 14px 0;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #FFCB05;
+    font-size: 18px;
+    font-weight: bold;
 }
